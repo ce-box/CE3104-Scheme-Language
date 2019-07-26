@@ -1,5 +1,5 @@
 #|---------------------------------------------------
-          ELEMENTARY NUMBER OPERATIONS
+          ELEMENTARY NUMERIC OPERATIONS
   The Scheme language has the following form with the
   functions:
           > (f arg1 arg2 arg3 ... argN)
