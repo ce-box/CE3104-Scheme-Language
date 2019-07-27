@@ -40,3 +40,30 @@
 (round 10.33) ; -> 10
 (round 10.50) ; -> 11
 (round 10.78) ; -> 11
+
+
+; Exponential Examples (expt arg1 arg2)
+
+(expt 2 1) ; -> 2
+(expt 2 2) ; -> 4
+(expt 2 3) ; -> 8
+
+
+; Quotient Examples (quotient arg1 arg2) [in python //]
+
+(quotient 10 2) ; -> 5
+(quotient 10 3) ; -> 3
+(quotient 10 4) ; -> 2
+
+
+; Remainder Examples (remainder arg1 arg2) [in python %]
+
+(remainder 10 2) ; -> 0
+(remainder 10 3) ; -> 1
+(remainder 10 4) ; -> 2
+
+; Square Root Examples (sqrt arg1)
+
+(sqrt 4) ; -> 2
+(sqrt 9) ; -> 3
+(sqrt 16) ; -> 4
