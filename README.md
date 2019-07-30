@@ -1,5 +1,5 @@
 # CE3104 - Scheme Programming Resources
-Collection of Scheme language resources of the course (CE3104) Languages, Compilers and Interpreters focused on the functional programming paradigm.
+<p align=justify>Collection of Scheme language resources of the course (CE3104) Languages, Compilers and Interpreters focused on the functional programming paradigm.</p>
 
 <p align=center><img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Racket-logo.svg" high=500 width=100></p>
 
