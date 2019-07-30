@@ -7,6 +7,8 @@
   even? , odd?, integer? and real?.
 ---------------------------------------------------|#
 
+#lang racket
+
 ;; To compare if n elements are equal use (= arg1 arg2 ... argN)
 
 (= 7 7) ;; -> #t

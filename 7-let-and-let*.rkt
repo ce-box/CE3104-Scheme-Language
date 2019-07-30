@@ -1,4 +1,3 @@
-#lang racket
 #|---------------------------------------------------
                       LET AND LET*
   In a special way let has the following syntax:
@@ -21,6 +20,7 @@
   does allow the sequential definition of values ​​to
   local variables.
   ---------------------------------------------------|#
+#lang racket
 
 ;; f(x,y) = y(1-y) + (1-y)(1+y) + 2 x (1+y)**2
 

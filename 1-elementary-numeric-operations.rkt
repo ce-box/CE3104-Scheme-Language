@@ -8,6 +8,8 @@
   addition, subtraction, division and multiplication.
 ---------------------------------------------------|#
 
+#lang racket
+
 ; Sum Examples (+ arg1 arg2 arg3 ... argN)
 (+ 5 4)
 

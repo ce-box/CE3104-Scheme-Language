@@ -25,6 +25,7 @@
           (define (<function-name> <args>)
                   <body>)
 ---------------------------------------------------|#
+#lang racket
 
 ;; define pi value
 (define pi 3.1416) ;; >pi -> 3.1416

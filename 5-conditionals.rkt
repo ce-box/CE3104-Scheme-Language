@@ -8,6 +8,8 @@
   the cond for a conditional evaluation.
 ---------------------------------------------------|#
 
+#lang racket
+
 ;; IF STATEMENT |
 ;; The syntax of if is:
 
@@ -59,5 +61,5 @@
   (cond
     ( ( >= num 0)
      num)
-    (else 
+    (else
       (* -1 num))))

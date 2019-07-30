@@ -1,3 +1,4 @@
+
 #|---------------------------------------------------
                 NUMERICAL COMPARATORS
   Logical predicates are functions that implement the
@@ -6,6 +7,8 @@
   In the Scheme language we have:
   and, or, not.
 ---------------------------------------------------|#
+
+#lang racket
 
 ;; (and arg1 arg2 ... argN)
 

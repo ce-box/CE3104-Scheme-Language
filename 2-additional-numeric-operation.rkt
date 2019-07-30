@@ -8,6 +8,7 @@
   abs, min, max, truncate, round, quotient, remainder,
   expt and sqrt.
 ---------------------------------------------------|#
+#lang racket
 
 ; Absolute value Examples (abs arg1)
 
