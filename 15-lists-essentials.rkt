@@ -1,11 +1,15 @@
 #|------------------------------------------------------------------------------
                                 SCHEME LISTS
-  A symbol is any valid expression. A list is a set of symbols related to each other. The lists have a structure that starts with an open parenthesis, it ends up closing parentheses, and within them are the symbols separated by blank spaces.
+  A symbol is any valid expression. A list is a set of symbols related to each
+  other. The lists have a structure that starts with an open parenthesis, it
+  ends up closing parentheses, and within them are the symbols separated by
+  blank spaces.
 
   > () ;; Empty list
   > (s1 s2 s3 s4 ... sN)
 
-  Below we give examples of functions that provides a Scheme for working with lists: car,cdr,c---r,cons,list,list?,equal? and null?
+  Below we give examples of functions that provides a Scheme for working with
+  lists: car,cdr,c---r,cons,list,list?,equal? and null?
   ----------------------------------------------------------------------------|#
 
 #lang racket
@@ -34,14 +38,18 @@
 (car (car '((1 2) (3 4) (5 6))) ;; -> 1
 (car (cdr '((1 2) (3 4) (5 6)))) ;; -> (3 4)
 
-;; However, be putting these functions separately becomes a bit practical, that is why there is the function c---r in which in the middle of the letter 'c' and the letter 'r' you can put as many 'a' and 'd' as may be necessary to combine the functions.
+;; However, be putting these functions separately becomes a bit practical, that
+;; is why there is the function c---r in which in the middle of the letter 'c'
+;; and the letter 'r' you can put as many 'a' and 'd' as may be necessary to
+;; combine the functions.
 
 (caar '((1 2) (3 4) (5 6))) ;; -> 1
 (cadr '((1 2) (3 4) (5 6))) ;; -> (3 4)
 (caddr '((1 2) (2 3) (3 4))) ;; -> (3 4)
 
 ;; (cons s0 '(s1 s2 ... sN))
-;; This function takes a symbol any and inserts it as the first element of the list.
+;; This function takes a symbol any and inserts it as the first element of the
+;; list.
 
 (cons 1 '( 2 3 4)) ;; -> (1 2 3 4)
 (cons 'a '(b c d)) ;; -> (a b c d)
