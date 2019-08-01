@@ -1,8 +1,8 @@
 #|------------------------------------------------------
                 SQUARE ROOTS - BISECTION
   This is one of the easiest methods to find the square
-  root of a number. The method generates apróximaciones
-  successive value until you get one with a margin of
+  root of a number. The method generates successive app-
+  roximations value until you get one with a margin of
   error desired.
   In the code will explain more in detail each function,
   but broadly speaking the algorithm behaves in the

@@ -1,5 +1,5 @@
 #|---------------------------------------------------
-               ADDITIONS AND SERIES
+               SUMS AND SERIES
   In these modules you will see examples of series of
   sums that allow you to apply a recursive solution.
   ---------------------------------------------------|#
