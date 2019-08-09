@@ -16,7 +16,7 @@
 ;; [!] Remember that to pass a list as an argument we must use the function
 ;; quote: (member? ele '(s1...sN))
 
-(provide member?)
+(provide member?) ;;You can use provide within a module to export definitions.
 (define (member? elem list)
   (cond ((null? list)
         #f)
