@@ -10,6 +10,8 @@
   ----------------------------------------------------------------------------|#
 #lang racket
 
+(provide apply-fun)
+
 ;; (member? ele list)
 ;; Checks if an element is part of the list
 
