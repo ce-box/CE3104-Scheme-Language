@@ -54,10 +54,38 @@ int pares_aux(int num, int digitos){
 }
 
 // 5. Escriba la funcion strcmp(char *s, char *p)
+int strcmp(char *s, char *p){
+    int res;
+    while(*s != '\0' && *p != '\0'){
+        if(*(s + 1) == '\0' && *(p + 1) == '\0')
+            res = 0;
+        else if(*(p + 1) == '\0')
+            res = 1;
+        else if(*(s + 1) == '\0')
+            res = -1;
+        s++;
+        p++;
+    }return res;
+}
 
 // 6. Escriba la siguiente función:
 //      void strcat(char *dest, char *src)
 // La función pega al final del string dest el valor del string src..
+char* strcat(char *dest, char *src){
+    int i = 0, j = 0;
+    char *res = (char*) malloc(sizeof(dest) + sizeof(src) + 1);
+    while (dest[i] != '\0') {
+        res[i] = dest[i];
+        i++;
+    }
+    while (src[j] != '\0'){
+        res[i] = src[j];
+        i++;
+        j++;
+    }
+    res[i] = '\0';
+    return res;
+}
 
 // 7. Escriba un programa que imprima una lista de todas las palabras de un documento, 
 // y para cada palabra una lista de los números de línea en los que aparece.
