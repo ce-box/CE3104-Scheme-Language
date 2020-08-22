@@ -31,7 +31,7 @@ Most of this material has been compiled from the book <i>"Introducción a la pro
 
 
 ## Getting Started
-<p align=justify>Prerequisites:You must have [Git](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git) installed on your console.</p>
+Prerequisites:You must have [Git](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git) installed on your console.
 
 1. On GitHub, go to the main page of the [repository](https://github.com/estalvgs1999/CE3104-Scheme.git).
 2. Under the name of the repository, click Clone or download.
